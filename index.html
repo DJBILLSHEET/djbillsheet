@@ -3,34 +3,36 @@
 <head>
     <title>DJ BILLSHEET - DEBEATGOD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(black, #111);
+            background: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d') no-repeat center center/cover;
             color: white;
             text-align: center;
         }
 
-        .header {
-            padding: 40px 20px;
+        .overlay {
+            background: rgba(0,0,0,0.8);
+            min-height: 100vh;
+            padding-bottom: 40px;
         }
 
         h1 {
-            font-size: 40px;
-            margin: 10px 0;
+            font-size: 42px;
             color: #00ffcc;
+            margin-top: 30px;
         }
 
         h2 {
             color: gold;
-            margin-bottom: 20px;
         }
 
         .btn {
             display: inline-block;
             padding: 15px 25px;
-            margin: 20px;
+            margin: 15px;
             background: gold;
             color: black;
             text-decoration: none;
@@ -38,32 +40,38 @@
             border-radius: 8px;
         }
 
+        .whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
         .player {
-            margin: 30px auto;
+            margin: 20px auto;
             width: 90%;
             max-width: 400px;
         }
 
         .section {
-            padding: 30px 20px;
+            padding: 20px;
         }
 
-        .footer {
-            background: #000;
-            padding: 20px;
-            font-size: 14px;
-            color: #aaa;
+        .social a {
+            margin: 10px;
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
         }
+
     </style>
 </head>
 
 <body>
 
-    <div class="header">
-        <h1>DJ BILLSHEET</h1>
-        <h2>DEBEATGOD</h2>
-        <p>🔥 Reggae Mix 2026 🔥</p>
-    </div>
+<div class="overlay">
+
+    <h1>DJ BILLSHEET</h1>
+    <h2>DEBEATGOD</h2>
+    <p>🔥 Reggae Mix 2026 🔥</p>
 
     <div class="section">
         <h3>🎧 Listen Now</h3>
@@ -81,19 +89,21 @@
     </div>
 
     <div class="section">
-        <h3>📞 Bookings & Contact</h3>
-        <p>Call / WhatsApp:</p>
-        <h2>0548990858</h2>
+        <h3>📞 Bookings</h3>
+        <a class="btn whatsapp" href="https://wa.me/233548990858" target="_blank">
+            💬 Chat on WhatsApp
+        </a>
+        <p>Call: 0548990858</p>
     </div>
 
-    <div class="section">
-        <h3>🎤 Services</h3>
-        <p>Weddings • Parties • Funerals • Club Events • Street Jams</p>
+    <div class="section social">
+        <h3>🌐 Follow Me</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
     </div>
 
-    <div class="footer">
-        © 2026 DJ BILLSHEET | DEBEATGOD
-    </div>
+</div>
 
 </body>
 </html>
