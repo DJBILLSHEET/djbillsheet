@@ -1,58 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DJ BILLSHEET</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial;
-  background: #0b0b0b;
-  color: white;
-  text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
 }
 
 h1 {
-  color: gold;
-  margin-top: 40px;
+    color: gold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #ccc;
+    font-size: 18px;
 }
 
 .section {
-  margin: 30px;
-  padding: 20px;
-  border: 1px solid #333;
+    margin: 30px;
+    padding: 25px;
+    border: 1px solid #333;
+    border-radius: 10px;
 }
 
-button {
-  padding: 12px 20px;
-  background: gold;
-  border: none;
-  font-weight: bold;
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: orange;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 14px;
+    color: #888;
 }
 </style>
-
 </head>
 
 <body>
 
-<h1>DJ BILLSHEET</h1>
-<p>DEBEATGOD</p>
+<header>
+    <h1>DJ BILLSHEET</h1>
+    <div class="tagline">DEBEATGOD 🎧🔥</div>
+</header>
 
 <div class="section">
-  <h2>About</h2>
-  <p>Professional DJ for all events.</p>
+    <h2>About</h2>
+    <p>Professional DJ for weddings, parties, funerals, and all events.</p>
 </div>
 
 <div class="section">
-  <h2>Mixtapes</h2>
-  <p>No mixtapes uploaded yet.</p>
+    <h2>Mixtapes</h2>
+    <p>New mixtape coming soon 🔥</p>
+    <a href="#" class="btn">Listen Now</a>
 </div>
 
 <div class="section">
-  <h2>Contact</h2>
-  <p>0548990858</p>
+    <h2>Book Me</h2>
+    <p>Available for all events</p>
+    <a href="https://wa.me/233548990858" class="btn">Book on WhatsApp</a>
 </div>
+
+<div class="section">
+    <h2>Contact</h2>
+    <p>Call: 0548990858</p>
+</div>
+
+<footer>
+    © 2026 DJ BILLSHEET | DEBEATGOD
+</footer>
 
 </body>
 </html>
