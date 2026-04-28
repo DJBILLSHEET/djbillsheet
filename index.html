@@ -1,101 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DJ BILLSHEET</title>
+    <title>DJ BILLSHEET - DEBEATGOD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(black, #111);
+            color: white;
+            text-align: center;
+        }
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: black;
-    color: white;
-    text-align: center;
-}
+        .header {
+            padding: 40px 20px;
+        }
 
-header {
-    padding: 50px 20px;
-}
+        h1 {
+            font-size: 40px;
+            margin: 10px 0;
+            color: #00ffcc;
+        }
 
-h1 {
-    color: gold;
-    font-size: 42px;
-}
+        h2 {
+            color: gold;
+            margin-bottom: 20px;
+        }
 
-.tagline {
-    color: #ccc;
-    margin-top: 10px;
-}
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 20px;
+            background: gold;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
 
-.section {
-    margin: 30px;
-    padding: 25px;
-    border-bottom: 1px solid #222;
-}
+        .player {
+            margin: 30px auto;
+            width: 90%;
+            max-width: 400px;
+        }
 
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 25px;
-    background: gold;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
+        .section {
+            padding: 30px 20px;
+        }
 
-audio {
-    width: 100%;
-    margin-top: 15px;
-}
-
-footer {
-    margin-top: 40px;
-    padding: 20px;
-    color: #888;
-}
-</style>
+        .footer {
+            background: #000;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
 </head>
 
 <body>
 
-<header>
-    <h1>DJ BILLSHEET</h1>
-    <div class="tagline">DEBEATGOD 🎧🔥</div>
-</header>
+    <div class="header">
+        <h1>DJ BILLSHEET</h1>
+        <h2>DEBEATGOD</h2>
+        <p>🔥 Reggae Mix 2026 🔥</p>
+    </div>
 
-<div class="section">
-    <h2>About</h2>
-    <p>Professional DJ for weddings, parties, funerals, and all events.</p>
-</div>
+    <div class="section">
+        <h3>🎧 Listen Now</h3>
 
-<div class="section">
-    <h2>🔥 Latest Mixtape</h2>
-    <p>HITZ vs HITZ (Shatta Wale x Stonebwoy)</p>
+        <div class="player">
+            <iframe 
+                src="https://audiomack.com/embed/dj-billsheet/song/reggae-mix-by-dj-billsheet"
+                scrolling="no" width="100%" height="252" frameborder="0">
+            </iframe>
+        </div>
 
-    <!-- AUDIO PLAYER -->
-    <audio controls>
-        <source src="your-mixtape.mp3" type="audio/mpeg">
-        Your browser does not support audio.
-    </audio>
+        <a class="btn" href="https://audiomack.com/dj-billsheet/song/reggae-mix-by-dj-billsheet" target="_blank">
+            ▶ Open in Audiomack
+        </a>
+    </div>
 
-    <p style="color:#888;">Upload your mixtape file to GitHub and rename it "your-mixtape.mp3"</p>
-</div>
+    <div class="section">
+        <h3>📞 Bookings & Contact</h3>
+        <p>Call / WhatsApp:</p>
+        <h2>0548990858</h2>
+    </div>
 
-<div class="section">
-    <h2>Book Me</h2>
-    <a href="https://wa.me/233548990858" class="btn">Book on WhatsApp</a>
-</div>
+    <div class="section">
+        <h3>🎤 Services</h3>
+        <p>Weddings • Parties • Funerals • Club Events • Street Jams</p>
+    </div>
 
-<div class="section">
-    <h2>Contact</h2>
-    <p>Call: 0548990858</p>
-</div>
-
-<footer>
-    © 2026 DJ BILLSHEET | DEBEATGOD
-</footer>
+    <div class="footer">
+        © 2026 DJ BILLSHEET | DEBEATGOD
+    </div>
 
 </body>
 </html>
